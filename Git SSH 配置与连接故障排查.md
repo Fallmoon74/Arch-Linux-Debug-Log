@@ -129,7 +129,7 @@ Host github.com
 
 ### 3. 拒绝合并
 
-**现象**: 推送报错
+推送报错
 
 ```
 ! [rejected]        main -> main (fetch first)
@@ -139,7 +139,7 @@ hint: Updates were rejected because the remote contains work that you do not hav
 **原因**:
 GitHub 上的仓库在创建时生成了 README.md 或 LICENSE 文件，而本地仓库是独立初始化的。Git 认为这是两个不相关的历史线，默认拒绝合并。
 
-**解决方案**:
+**解决**:
 强制拉取远程更改，并允许不相关的历史合并。
 
 ```bash
