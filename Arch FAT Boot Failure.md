@@ -144,20 +144,8 @@ reboot
 
 ### 附录：制作 Arch Linux 修复 U 盘
 
-为了执行 Chroot 外部修复，需要一个可启动的 Arch Linux U 盘。
-
-**1. 下载镜像:**
-
-   - 前往 Arch Linux 官方网站：[https://archlinux.org/download/](https://archlinux.org/download/)
-   - 从任意镜像站点下载最新的 `.iso` 文件。
-
-**2. 准备 U 盘:**
-
-   - 准备一个容量至少 8GB 的 U 盘。
-   - **警告：** U 盘上的所有数据都将被完全擦除。
-
-**3. 写入镜像 (以 Windows 平台为例):**
-
+为了执行 Chroot 外部修复，需要一个可启动的 Arch Linux U 盘。前往 Arch Linux 官方网站：[https://archlinux.org/download/](https://archlinux.org/download/)，从任意镜像站点下载最新的 `.iso` 文件。
+准备一个容量至少 8GB 的 U 盘。
    - 下载 **Rufus** ([https://rufus.ie/](https://rufus.ie/))。
    - 在 Rufus 中：
      - **设备 :** 选择 U 盘。
